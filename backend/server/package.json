@@ -1,0 +1,42 @@
+{
+  "name": "material-warehouse-server",
+  "version": "1.0.0",
+  "description": "Express.js + Drizzle ORM backend for the Test Material Warehouse management system",
+  "main": "app.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:seed": "node db/seed.js",
+    "e2e:smoke": "node scripts/e2e-smoke.js"
+  },
+  "keywords": [
+    "express",
+    "drizzle",
+    "mysql",
+    "jwt",
+    "cloudinary",
+    "warehouse"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mysql2": "^3.23.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10"
+  }
+}

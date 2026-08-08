@@ -1,0 +1,26 @@
+{
+  "name": "test-material-warehouse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test Material Warehouse management system for garments factories - Next.js + Express.js + MySQL (Drizzle ORM) + Cloudinary + JWT",
+  "scripts": {
+    "dev": "concurrently -k -n server,frontend -c blue,green \"npm --prefix server run dev\" \"npm --prefix ../frontend run dev\"",
+
+    "dev:server": "npm --prefix server run dev",
+
+    "dev:frontend": "npm --prefix ../frontend run dev",
+
+    "build": "npm --prefix ../frontend run build",
+
+    "db:generate": "npm --prefix server run db:generate",
+
+    "db:migrate": "npm --prefix server run db:migrate",
+
+    "db:push": "npm --prefix server run db:push",
+
+    "db:seed": "npm --prefix server run db:seed"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.4"
+  }
+}
