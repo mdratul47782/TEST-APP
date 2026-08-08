@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/buyers",
+      "regex": "^/buyers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/buyers(?:/)?$"
+    },
+    {
+      "page": "/cutting",
+      "regex": "^/cutting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cutting(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/finished-goods",
+      "regex": "^/finished\\-goods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/finished\\-goods(?:/)?$"
+    },
+    {
+      "page": "/grn",
+      "regex": "^/grn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/grn(?:/)?$"
+    },
+    {
+      "page": "/issues",
+      "regex": "^/issues(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/issues(?:/)?$"
+    },
+    {
+      "page": "/materials",
+      "regex": "^/materials(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/materials(?:/)?$"
+    },
+    {
+      "page": "/mrp",
+      "regex": "^/mrp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mrp(?:/)?$"
+    },
+    {
+      "page": "/orders",
+      "regex": "^/orders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/orders(?:/)?$"
+    },
+    {
+      "page": "/production",
+      "regex": "^/production(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/production(?:/)?$"
+    },
+    {
+      "page": "/purchase-orders",
+      "regex": "^/purchase\\-orders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/purchase\\-orders(?:/)?$"
+    },
+    {
+      "page": "/quality",
+      "regex": "^/quality(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/quality(?:/)?$"
+    },
+    {
+      "page": "/requisitions",
+      "regex": "^/requisitions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/requisitions(?:/)?$"
+    },
+    {
+      "page": "/shipments",
+      "regex": "^/shipments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shipments(?:/)?$"
+    },
+    {
+      "page": "/styles",
+      "regex": "^/styles(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/styles(?:/)?$"
+    },
+    {
+      "page": "/suppliers",
+      "regex": "^/suppliers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/suppliers(?:/)?$"
+    },
+    {
+      "page": "/warehouse",
+      "regex": "^/warehouse(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/warehouse(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

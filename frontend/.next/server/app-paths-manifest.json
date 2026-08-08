@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/(app)/dashboard/page": "app/(app)/dashboard/page.js",
+  "/(app)/buyers/page": "app/(app)/buyers/page.js",
+  "/(app)/finished-goods/page": "app/(app)/finished-goods/page.js",
+  "/(app)/issues/page": "app/(app)/issues/page.js",
+  "/(app)/grn/page": "app/(app)/grn/page.js",
+  "/(app)/cutting/page": "app/(app)/cutting/page.js",
+  "/(app)/materials/page": "app/(app)/materials/page.js",
+  "/(app)/orders/page": "app/(app)/orders/page.js",
+  "/(app)/mrp/page": "app/(app)/mrp/page.js",
+  "/(app)/purchase-orders/page": "app/(app)/purchase-orders/page.js",
+  "/(app)/production/page": "app/(app)/production/page.js",
+  "/(app)/shipments/page": "app/(app)/shipments/page.js",
+  "/(app)/quality/page": "app/(app)/quality/page.js",
+  "/(app)/requisitions/page": "app/(app)/requisitions/page.js",
+  "/(app)/styles/page": "app/(app)/styles/page.js",
+  "/(app)/warehouse/page": "app/(app)/warehouse/page.js",
+  "/(app)/suppliers/page": "app/(app)/suppliers/page.js"
+}

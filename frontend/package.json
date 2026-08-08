@@ -1,0 +1,21 @@
+{
+  "name": "material-warehouse-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js App Router + Tailwind CSS frontend for the Test Material Warehouse",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lucide-react": "^1.30.0",
+    "next": "^15.5.23",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

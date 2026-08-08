@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/(app)/dashboard/page": "/dashboard",
+  "/(app)/buyers/page": "/buyers",
+  "/(app)/finished-goods/page": "/finished-goods",
+  "/(app)/issues/page": "/issues",
+  "/(app)/grn/page": "/grn",
+  "/(app)/cutting/page": "/cutting",
+  "/(app)/materials/page": "/materials",
+  "/(app)/orders/page": "/orders",
+  "/(app)/mrp/page": "/mrp",
+  "/(app)/purchase-orders/page": "/purchase-orders",
+  "/(app)/production/page": "/production",
+  "/(app)/shipments/page": "/shipments",
+  "/(app)/quality/page": "/quality",
+  "/(app)/requisitions/page": "/requisitions",
+  "/(app)/styles/page": "/styles",
+  "/(app)/warehouse/page": "/warehouse",
+  "/(app)/suppliers/page": "/suppliers"
+}
